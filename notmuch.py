@@ -1,6 +1,6 @@
 import string
 
-for c in string.ascii_lowercase:
-  print(f"{c} {c.upper()}"
+for i, c in enumerate(string.ascii_lowercase):
+  print(f"{i}. lower={c} upper={c.upper()}"
 
 print('Done')
