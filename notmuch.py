@@ -1,11 +1,15 @@
 import string
 
-
+print('============================')
+print('==  Welcome to QuickTest  ==')
+print('============================')
+print()
 for i, c in enumerate(string.ascii_lowercase):
     print(f"{i}. lower={c} upper={c.upper()}")
 
 for i in range(10):
     print(i, end='...')
-print()
 
+print()
 print('All Done!! 🐮🔔')
+print('^^^^^^^^^^^^^^^')
